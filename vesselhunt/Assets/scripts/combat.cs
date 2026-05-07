@@ -1,5 +1,8 @@
 using System;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UIElements;
+using TMPro;
 
 public class combat : MonoBehaviour
 {
@@ -8,6 +11,7 @@ public class combat : MonoBehaviour
     [SerializeField] private GameObject goon2;
     [SerializeField] private GameObject goon3;
     [SerializeField] private GameObject goon4;
+    public TextMeshProUGUI outputt;
 
     [SerializeField] private GameObject Nyra;
     private float goon1x;
@@ -55,7 +59,7 @@ public class combat : MonoBehaviour
             goon1x = goon1.transform.position.x;
             goon1y = goon1.transform.position.y;
             goon1.GetComponent<SpriteRenderer>().color = Color.black;
-            Debug.Log("Travel rightwards to the goons and defeat them. Stay in your range to attack. Your range is 8 in x dimension and 8 in y dimension.");
+            outputt.text = "Travel rightwards to the goons and defeat them. Stay in your range to attack. Your range is 8 in x dimension and 8 in y dimension.";
         }
 
         if (currentGoon == 0) return;
@@ -69,7 +73,7 @@ public class combat : MonoBehaviour
             {
                 if (!combatMessageShown)
                 {
-                    Debug.Log("Press J to damage enemies. Press H to heal.");
+                    outputt.text = "Press J to damage enemies. Press H to heal.";
                     combatMessageShown = true;
                 }
 
@@ -77,13 +81,13 @@ public class combat : MonoBehaviour
                 {
                     goon1health -= 10;
                     shaderhealth -= 2;
-                    Debug.Log("Goon 1 health = " + goon1health + " Shader health = " + shaderhealth);
+                    outputt.text = "Goon 1 health = " + goon1health + " Shader health = " + shaderhealth;
                 }
                 if (Input.GetKeyDown(KeyCode.H))
                 {
                     shaderhealth += 5;
                     goon1health += 1;
-                    Debug.Log("Goon 1 health = " + goon1health + " Shader health = " + shaderhealth);
+                    outputt.text = "Goon 1 health = " + goon1health + " Shader health = " + shaderhealth;
                 }
             }
 
@@ -95,7 +99,7 @@ public class combat : MonoBehaviour
                 goon2.GetComponent<SpriteRenderer>().color = Color.black;
                 goon2x = goon2.transform.position.x;
                 goon2y = goon2.transform.position.y;
-                Debug.Log("Defeat goon 2");
+                outputt.text = "Defeat goon 2";
                 currentGoon = 2;
                 combatMessageShown = false;
             }
@@ -107,7 +111,7 @@ public class combat : MonoBehaviour
             {
                 if (!combatMessageShown)
                 {
-                    Debug.Log("Press J to damage enemies. Press H to heal.");
+                    outputt.text = "Press J to damage enemies. Press H to heal.";
                     combatMessageShown = true;
                 }
 
@@ -115,13 +119,13 @@ public class combat : MonoBehaviour
                 {
                     goon2health -= 10;
                     shaderhealth -= 2;
-                    Debug.Log("Goon 2 health = " + goon2health + " Shader health = " + shaderhealth);
+                    outputt.text = "Goon 2 health = " + goon2health + " Shader health = " + shaderhealth;
                 }
                 if (Input.GetKeyDown(KeyCode.H))
                 {
                     shaderhealth += 5;
                     goon2health += 1;
-                    Debug.Log("Goon 2 health = " + goon2health + " Shader health = " + shaderhealth);
+                    outputt.text = "Goon 2 health = " + goon2health + " Shader health = " + shaderhealth;
                 }
             }
 
@@ -133,7 +137,7 @@ public class combat : MonoBehaviour
                 goon3.GetComponent<SpriteRenderer>().color = Color.black;
                 goon3x = goon3.transform.position.x;
                 goon3y = goon3.transform.position.y;
-                Debug.Log("Defeat goon 3");
+                outputt.text = "Defeat goon 3";
                 currentGoon = 3;
                 combatMessageShown = false;
             }
@@ -145,7 +149,7 @@ public class combat : MonoBehaviour
             {
                 if (!combatMessageShown)
                 {
-                    Debug.Log("Press J to damage enemies. Press H to heal.");
+                    outputt.text ="Press J to damage enemies. Press H to heal.";
                     combatMessageShown = true;
                 }
 
@@ -153,13 +157,13 @@ public class combat : MonoBehaviour
                 {
                     goon3health -= 10;
                     shaderhealth -= 2;
-                    Debug.Log("Goon 3 health = " + goon3health + " Shader health = " + shaderhealth);
+                    outputt.text ="Goon 3 health = " + goon3health + " Shader health = " + shaderhealth;
                 }
                 if (Input.GetKeyDown(KeyCode.H))
                 {
                     shaderhealth += 5;
                     goon3health += 1;
-                    Debug.Log("Goon 3 health = " + goon3health + " Shader health = " + shaderhealth);
+                    outputt.text ="Goon 3 health = " + goon3health + " Shader health = " + shaderhealth;
                 }
             }
 
@@ -171,7 +175,7 @@ public class combat : MonoBehaviour
                 goon4.GetComponent<SpriteRenderer>().color = Color.black;
                 goon4x = goon4.transform.position.x;
                 goon4y = goon4.transform.position.y;
-                Debug.Log("Defeat goon 4");
+                outputt.text="Defeat goon 4";
                 currentGoon = 4;
                 combatMessageShown = false;
             }
@@ -183,7 +187,7 @@ public class combat : MonoBehaviour
             {
                 if (!combatMessageShown)
                 {
-                    Debug.Log("Press J to damage enemies. Press H to heal.");
+                    outputt.text="Press J to damage enemies. Press H to heal.";
                     combatMessageShown = true;
                 }
 
@@ -191,13 +195,13 @@ public class combat : MonoBehaviour
                 {
                     goon4health -= 10;
                     shaderhealth -= 2;
-                    Debug.Log("Goon 4 health = " + goon4health + " Shader health = " + shaderhealth);
+                    outputt.text ="Goon 4 health = " + goon4health + " Shader health = " + shaderhealth;
                 }
                 if (Input.GetKeyDown(KeyCode.H))
                 {
                     shaderhealth += 5;
                     goon4health += 1;
-                    Debug.Log("Goon 4 health = " + goon4health + " Shader health = " + shaderhealth);
+                    outputt.text="Goon 4 health = " + goon4health + " Shader health = " + shaderhealth;
                 }
             }
 
@@ -205,9 +209,7 @@ public class combat : MonoBehaviour
             {
                 goon4active = false;
                 goon4.GetComponent<SpriteRenderer>().color = Color.red;
-                Debug.Log("Shader: Now, take me to your leader.");
-                Debug.Log("Goons all defeated. Level passed. You have suceeded...");
-                Debug.Log("...for now");
+                outputt.text="Goons all defeated. Level passed. You have suceeded...for now";
                 currentGoon = 0;
             }
         }

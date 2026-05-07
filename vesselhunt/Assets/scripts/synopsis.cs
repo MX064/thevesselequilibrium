@@ -1,4 +1,5 @@
 using System.Collections;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -6,6 +7,7 @@ using UnityEngine;
 public class synopsis : MonoBehaviour
 {
     public Transform Shader;
+    public TextMeshProUGUI outputt;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -17,25 +19,25 @@ public class synopsis : MonoBehaviour
 
     IEnumerator Sequence()
     {
-        Debug.Log("The world didnt fall in a day");
+        outputt.text="The world didnt fall in a day";
         yield return new WaitForSeconds(4.5f);
-        Debug.Log("It rotted. Quietly and slowly.");
+        outputt.text="It rotted. Quietly and slowly.";
         yield return new WaitForSeconds(2.5f);
-        Debug.Log("Systems failed. People followed.");
+        outputt.text="Systems failed. People followed.";
         yield return new WaitForSeconds(2.5f);
-        Debug.Log("Now what's left...fight over what remains.");
+        outputt.text="Now what's left...fight over what remains.";
         yield return new WaitForSeconds(4f);
-        Debug.Log("Some believe it can be fixed");
+        outputt.text="Some believe it can be fixed";
         yield return new WaitForSeconds(2.5f);
-        Debug.Log("Others don't.");
+        outputt.text="Others don't.";
         yield return new WaitForSeconds(4f);
-        Debug.Log("THE VESSEL");
+        outputt.text="THE VESSEL";
         yield return new WaitForSeconds(3f);
-        Debug.Log("Welcome to Vessel Hunt: The Equilibrium.");
+        outputt.text="Welcome to Vessel Hunt: The Equilibrium.";
         yield return new WaitForSeconds(2f);
-        Debug.Log("Press W to move up; A to move left; D to move right; S to move down.");
+        outputt.text="Press W to move up; A to move left; D to move right; S to move down.";
         yield return new WaitForSeconds(2f);
-        Debug.Log("Go into the bar and talk to Nyra, who is dressed in white.");
+        outputt.text="Go into the bar and talk to Nyra, who is dressed in white.";
     }
 
     // Update is called once per frame

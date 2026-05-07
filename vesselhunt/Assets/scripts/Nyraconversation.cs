@@ -1,4 +1,5 @@
 using System.Collections;
+using TMPro;
 using UnityEngine;
 
 public class Nyraconversation : MonoBehaviour
@@ -6,6 +7,7 @@ public class Nyraconversation : MonoBehaviour
     public Transform Shader;
     public Transform Nyra;
     private bool hasPlayed = false;
+    public TextMeshProUGUI outputt;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -18,48 +20,48 @@ public class Nyraconversation : MonoBehaviour
 
     IEnumerator Sequence()
     {
-        Debug.Log("Nyra: Hey there, you dont seem like youre here to drink");
+        outputt.text="Nyra: Hey there, you dont seem like youre here to drink";
         yield return new WaitForSeconds(2f);
-        Debug.Log("Shader: No");
+        outputt.text="Shader: No";
         yield return new WaitForSeconds(2f);
-        Debug.Log("Nyra: Then either youre lost, or looking for something");
+        outputt.text="Nyra: Then either youre lost, or looking for something";
         yield return new WaitForSeconds(2f);
-        Debug.Log("Shader: I'm looking for information");
+        outputt.text="Shader: I'm looking for information";
         yield return new WaitForSeconds(4f);
-        Debug.Log("Nyra: That depends on what you think is worth knowing");
+        outputt.text="Nyra: That depends on what you think is worth knowing";
         yield return new WaitForSeconds(2f);
-        Debug.Log("Shader: The Vessel");
+        outputt.text="Shader: The Vessel";
         yield return new WaitForSeconds(1f);
-        Debug.Log("Nyra: Ssssh, People dont just say that out loud!");
+        outputt.text="Nyra: Ssssh, People dont just say that out loud!";
         yield return new WaitForSeconds(1.5f);
-        Debug.Log("Nyra: Not unless theyre desparate");
+        outputt.text="Nyra: Not unless theyre desparate";
         yield return new WaitForSeconds(1f);
-        Debug.Log("Nyra: ...or stupid");
+        outputt.text="Nyra: ...or stupid";
         yield return new WaitForSeconds(2f);
-        Debug.Log("Shader: Which one am I?");
+        outputt.text="Shader: Which one am I?";
         yield return new WaitForSeconds(2f);
-        Debug.Log("Nyra: I haven't decided");
+        outputt.text="Nyra: I haven't decided";
         yield return new WaitForSeconds(2f);
-        Debug.Log("Nyra: A group came through earlier. Call themselves the Bare Serpents.");
+        outputt.text="Nyra: A group came through earlier. Call themselves the Bare Serpents.";
         yield return new WaitForSeconds(2f);
-        Debug.Log("Nyra: They Armed. Nervous. Talking like they had something reliable on what youre looking for");
+        outputt.text="Nyra: They Armed. Nervous. Talking like they had something reliable on what youre looking for";
         yield return new WaitForSeconds(2f);
-        Debug.Log("Shader: Where?");
+        outputt.text="Shader: Where?";
         yield return new WaitForSeconds(2f);
-        Debug.Log("Nyra: Back of the bar");
+        outputt.text="Nyra: Back of the bar";
         yield return new WaitForSeconds(2f);
-        Debug.Log("Nyra: If they have a lead, you wont be the only one looking for it");
+        outputt.text="Nyra: If they have a lead, you wont be the only one looking for it";
         yield return new WaitForSeconds(4f);
-        Debug.Log("Nyra: You should ask yourself something first");
+        outputt.text="Nyra: You should ask yourself something first";
         yield return new WaitForSeconds(2f);
-        Debug.Log("Shader: What is it?");
+        outputt.text="Shader: What is it?";
         yield return new WaitForSeconds(2f);
-        Debug.Log("Nyra: ...What heppens if you find it?");
+        outputt.text="Nyra: ...What heppens if you find it?";
         yield return new WaitForSeconds(2f);
-        Debug.Log("Shader : ...");
+        outputt.text="Shader : ...";
 
         yield return new WaitForSeconds(3f);
-        Debug.Log("Go find the Bare Serpants, move rightwards to the back of the bar");
+        outputt.text="Go find the Bare Serpants, move rightwards to the back of the bar";
 
         Nyra.transform.position = new Vector3(-16, -13, 0);
     }
