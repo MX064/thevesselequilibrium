@@ -6,16 +6,16 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/main menu.unity
+    path: Assets/Scenes and sounds/main menu.unity
     guid: 209241421777bd049b6135217d1d6bee
   - enabled: 1
-    path: Assets/Scenes/controls.unity
+    path: Assets/Scenes and sounds/controls.unity
     guid: afdd1c4db82e3984c991aa82a9ba39ec
   - enabled: 1
-    path: Assets/Scenes/level1-bar.unity
+    path: Assets/Scenes and sounds/level1-bar.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
-    path: Assets/Scenes/level2.unity
+    path: Assets/Scenes and sounds/level2.unity
     guid: f3593b3f92bd70b4fb4b9780868ced91
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
