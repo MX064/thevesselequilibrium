@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: 80a4bd7ee1ecac647956f28fbd519d93
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -801672075779292123
+    second: Shader idle animaton-Sheet_0
+  - first:
+      213: 7096502313748121181
+    second: Shader idle animaton-Sheet_1
+  - first:
+      213: 6501155574710277199
+    second: Shader idle animaton-Sheet_2
+  - first:
+      213: 9072490755487615510
+    second: Shader idle animaton-Sheet_3
+  - first:
+      213: -1238066525284499779
+    second: Shader idle animaton-Sheet_4
+  - first:
+      213: 5990930743112767264
+    second: Shader idle animaton-Sheet_5
+  - first:
+      213: 4940177338128033519
+    second: Shader idle animaton-Sheet_6
+  - first:
+      213: -2083849598171099911
+    second: Shader idle animaton-Sheet_7
+  - first:
+      213: -8053091926382322437
+    second: Shader idle animaton-Sheet_8
+  - first:
+      213: -4820158651733475968
+    second: Shader idle animaton-Sheet_9
+  - first:
+      213: 4993621371914887763
+    second: Shader idle animaton-Sheet_10
+  - first:
+      213: -8292234997869244427
+    second: Shader idle animaton-Sheet_11
+  - first:
+      213: -621551712494363511
+    second: Shader idle animaton-Sheet_12
+  - first:
+      213: -4721261710899099117
+    second: Shader idle animaton-Sheet_13
+  - first:
+      213: -1248134068814991946
+    second: Shader idle animaton-Sheet_14
+  - first:
+      213: 2676129449149868261
+    second: Shader idle animaton-Sheet_15
+  - first:
+      213: -7539894090972066102
+    second: Shader idle animaton-Sheet_16
+  - first:
+      213: 1457515255267336183
+    second: Shader idle animaton-Sheet_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Shader idle animaton-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 89
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52443d89e73efd4f0800000000000000
+      internalID: -801672075779292123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shader idle animaton-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 107
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d56c1b66147db7260800000000000000
+      internalID: 7096502313748121181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shader idle animaton-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 98
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f441824fc8eb83a50800000000000000
+      internalID: 6501155574710277199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shader idle animaton-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 89
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61acad42646f7ed70800000000000000
+      internalID: 9072490755487615510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shader idle animaton-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 107
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbe7d180e0181dee0800000000000000
+      internalID: -1238066525284499779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shader idle animaton-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 98
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 027143105cf042350800000000000000
+      internalID: 5990930743112767264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shader idle animaton-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 46
+        width: 75
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe66e866d190f8440800000000000000
+      internalID: 4940177338128033519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shader idle animaton-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 96
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fccba7c4dda413e0800000000000000
+      internalID: -2083849598171099911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shader idle animaton-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 94
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfc5a606f8bad3090800000000000000
+      internalID: -8053091926382322437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shader idle animaton-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 45
+        width: 80
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08d766a9e3b5b1db0800000000000000
+      internalID: -4820158651733475968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shader idle animaton-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 46
+        width: 80
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35229cf2e28ec4540800000000000000
+      internalID: 4993621371914887763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shader idle animaton-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 46
+        width: 82
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ff01fd14301cec80800000000000000
+      internalID: -8292234997869244427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shader idle animaton-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 46
+        width: 79
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98cdc37b20ecf57f0800000000000000
+      internalID: -621551712494363511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shader idle animaton-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 46
+        width: 76
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31ac43efc75ba7eb0800000000000000
+      internalID: -4721261710899099117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shader idle animaton-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 46
+        width: 74
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bd28346dacbdaee0800000000000000
+      internalID: -1248134068814991946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shader idle animaton-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 46
+        width: 72
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e82a852e85832520800000000000000
+      internalID: 2676129449149868261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shader idle animaton-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 46
+        width: 75
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ace0b87b54aec5790800000000000000
+      internalID: -7539894090972066102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shader idle animaton-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 46
+        width: 75
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ff1ce407622a3410800000000000000
+      internalID: 1457515255267336183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Shader idle animaton-Sheet_0: -801672075779292123
+      Shader idle animaton-Sheet_1: 7096502313748121181
+      Shader idle animaton-Sheet_10: 4993621371914887763
+      Shader idle animaton-Sheet_11: -8292234997869244427
+      Shader idle animaton-Sheet_12: -621551712494363511
+      Shader idle animaton-Sheet_13: -4721261710899099117
+      Shader idle animaton-Sheet_14: -1248134068814991946
+      Shader idle animaton-Sheet_15: 2676129449149868261
+      Shader idle animaton-Sheet_16: -7539894090972066102
+      Shader idle animaton-Sheet_17: 1457515255267336183
+      Shader idle animaton-Sheet_2: 6501155574710277199
+      Shader idle animaton-Sheet_3: 9072490755487615510
+      Shader idle animaton-Sheet_4: -1238066525284499779
+      Shader idle animaton-Sheet_5: 5990930743112767264
+      Shader idle animaton-Sheet_6: 4940177338128033519
+      Shader idle animaton-Sheet_7: -2083849598171099911
+      Shader idle animaton-Sheet_8: -8053091926382322437
+      Shader idle animaton-Sheet_9: -4820158651733475968
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
