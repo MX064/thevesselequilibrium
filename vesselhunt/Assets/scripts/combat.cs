@@ -11,6 +11,7 @@ public class combat : MonoBehaviour
     [SerializeField] private GameObject goon2;
     [SerializeField] private GameObject goon3;
     [SerializeField] private GameObject goon4;
+    [SerializeField] private GameObject lvl2;
     public TextMeshProUGUI outputt;
 
     [SerializeField] private GameObject Nyra;
@@ -209,9 +210,13 @@ public class combat : MonoBehaviour
             {
                 goon4active = false;
                 goon4.GetComponent<SpriteRenderer>().color = Color.red;
-                outputt.text="Goons all defeated. Level passed. You have suceeded...for now";
+                outputt.text = "Goons all defeated. Level passed. You have suceeded...for now";
                 currentGoon = 0;
+                lvl2.SetActive(true);
+                shaderhealth = 100;
             }
+         
+
         }
     }
 }
