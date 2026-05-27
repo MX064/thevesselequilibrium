@@ -29,7 +29,7 @@ public class combatvex : MonoBehaviour
         shadery = shader2.position.y; 
         shaderx = shader2.position.x; 
 
-        if (vexhealth > 0)
+        if ((vexhealth > 0) && (shader2.transform.eulerAngles.z == 90))
         {
             if (Math.Abs(shaderx - vexx) < 8 && Math.Abs(shadery - vexy) < 8 && (vexy == -1.25f))
             {

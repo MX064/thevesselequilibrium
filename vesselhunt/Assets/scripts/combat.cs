@@ -52,7 +52,7 @@ public class combat : MonoBehaviour
     {
         Nyray = Nyra.transform.position.y;
 
-        if (!combatStarted && Nyray <= -13.0f)
+        if (!combatStarted && Nyray <= -13.0f && Shader.transform.eulerAngles.z == 270)
         {
             combatStarted = true;
             currentGoon = 1;
