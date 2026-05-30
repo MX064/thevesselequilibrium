@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: e84f250031a5b804bbef69fb4eefa6aa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 198701460318702830
+    second: shader holding shotgun shot animation-Sheet_0
+  - first:
+      213: -2437324650630920384
+    second: shader holding shotgun shot animation-Sheet_1
+  - first:
+      213: -4551892054933208972
+    second: shader holding shotgun shot animation-Sheet_2
+  - first:
+      213: 2995508145369293819
+    second: shader holding shotgun shot animation-Sheet_3
+  - first:
+      213: 4401333670699932647
+    second: shader holding shotgun shot animation-Sheet_4
+  - first:
+      213: -3653185098977483244
+    second: shader holding shotgun shot animation-Sheet_5
+  - first:
+      213: 4190153080592532390
+    second: shader holding shotgun shot animation-Sheet_6
+  - first:
+      213: 7684815952744173686
+    second: shader holding shotgun shot animation-Sheet_7
+  - first:
+      213: -5853828457290533241
+    second: shader holding shotgun shot animation-Sheet_8
+  - first:
+      213: -465309453723104831
+    second: shader holding shotgun shot animation-Sheet_9
+  - first:
+      213: -9169039383113759421
+    second: shader holding shotgun shot animation-Sheet_10
+  - first:
+      213: -2556367882096556873
+    second: shader holding shotgun shot animation-Sheet_11
+  - first:
+      213: -5833459314045044124
+    second: shader holding shotgun shot animation-Sheet_12
+  - first:
+      213: -2758779126542858135
+    second: shader holding shotgun shot animation-Sheet_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: shader holding shotgun shot animation-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 93
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eecc5a6ecede1c200800000000000000
+      internalID: 198701460318702830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shader holding shotgun shot animation-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 98
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04747dcc422ec2ed0800000000000000
+      internalID: -2437324650630920384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shader holding shotgun shot animation-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 93
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47088c10b4e64d0c0800000000000000
+      internalID: -4551892054933208972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shader holding shotgun shot animation-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 6
+        width: 74
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf3a68e89ce229920800000000000000
+      internalID: 2995508145369293819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shader holding shotgun shot animation-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 3
+        width: 77
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eb190c77ada41d30800000000000000
+      internalID: 4401333670699932647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shader holding shotgun shot animation-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 88
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41662b402874d4dc0800000000000000
+      internalID: -3653185098977483244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shader holding shotgun shot animation-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 90
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a30a33c60a662a30800000000000000
+      internalID: 4190153080592532390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shader holding shotgun shot animation-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 1
+        width: 81
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6705293a463f5aa60800000000000000
+      internalID: 7684815952744173686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shader holding shotgun shot animation-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 84
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 786ff13780603cea0800000000000000
+      internalID: -5853828457290533241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shader holding shotgun shot animation-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 90
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c904346483ea89f0800000000000000
+      internalID: -465309453723104831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shader holding shotgun shot animation-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 1
+        width: 85
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34500fdb24701c080800000000000000
+      internalID: -9169039383113759421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shader holding shotgun shot animation-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 86
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b4ca6894f4f58cd0800000000000000
+      internalID: -2556367882096556873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shader holding shotgun shot animation-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 4
+        width: 90
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46ab6ae29a36b0fa0800000000000000
+      internalID: -5833459314045044124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shader holding shotgun shot animation-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 72
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96886a44009d6b9d0800000000000000
+      internalID: -2758779126542858135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      shader holding shotgun shot animation-Sheet_0: 198701460318702830
+      shader holding shotgun shot animation-Sheet_1: -2437324650630920384
+      shader holding shotgun shot animation-Sheet_10: -9169039383113759421
+      shader holding shotgun shot animation-Sheet_11: -2556367882096556873
+      shader holding shotgun shot animation-Sheet_12: -5833459314045044124
+      shader holding shotgun shot animation-Sheet_13: -2758779126542858135
+      shader holding shotgun shot animation-Sheet_2: -4551892054933208972
+      shader holding shotgun shot animation-Sheet_3: 2995508145369293819
+      shader holding shotgun shot animation-Sheet_4: 4401333670699932647
+      shader holding shotgun shot animation-Sheet_5: -3653185098977483244
+      shader holding shotgun shot animation-Sheet_6: 4190153080592532390
+      shader holding shotgun shot animation-Sheet_7: 7684815952744173686
+      shader holding shotgun shot animation-Sheet_8: -5853828457290533241
+      shader holding shotgun shot animation-Sheet_9: -465309453723104831
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
