@@ -371,13 +371,22 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 51942999}
   serializedVersion: 2
+<<<<<<< Updated upstream:vesselhunt/Assets/_Recovery/0 (11).unity
   m_LocalRotation: {x: 0, y: 0, z: 0.5, w: 0.8660254}
   m_LocalPosition: {x: 30, y: 4, z: 0}
+=======
+  m_LocalRotation: {x: 0.008135393, y: 0.008001444, z: 0.7129053, w: 0.7011675}
+  m_LocalPosition: {x: 29, y: 8, z: 0}
+>>>>>>> Stashed changes:vesselhunt/Assets/Scenes/level1-bar.unity
   m_LocalScale: {x: 5.2, y: 5.2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< Updated upstream:vesselhunt/Assets/_Recovery/0 (11).unity
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 60}
+=======
+  m_LocalEulerAnglesHint: {x: 0, y: 1.308, z: 90.951}
+>>>>>>> Stashed changes:vesselhunt/Assets/Scenes/level1-bar.unity
 --- !u!61 &51943002
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -612,13 +621,22 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 67594867}
   serializedVersion: 2
+<<<<<<< Updated upstream:vesselhunt/Assets/_Recovery/0 (11).unity
   m_LocalRotation: {x: 0, y: 0, z: 0.67559016, w: 0.7372774}
   m_LocalPosition: {x: 30, y: 9, z: 0}
+=======
+  m_LocalRotation: {x: -0, y: -0, z: 0.6998159, w: 0.7143232}
+  m_LocalPosition: {x: 31.4, y: -9, z: 0}
+>>>>>>> Stashed changes:vesselhunt/Assets/Scenes/level1-bar.unity
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< Updated upstream:vesselhunt/Assets/_Recovery/0 (11).unity
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 85}
+=======
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 88.824}
+>>>>>>> Stashed changes:vesselhunt/Assets/Scenes/level1-bar.unity
 --- !u!50 &67594870
 Rigidbody2D:
   serializedVersion: 5
@@ -767,6 +785,58 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 131148520}
   m_CullTransparentMesh: 1
+--- !u!1 &177619543
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 177619545}
+  - component: {fileID: 177619544}
+  m_Layer: 0
+  m_Name: Audio Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &177619544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 177619543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0905f62a72131a489e0252f132884b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  musicSource: {fileID: 670945852}
+  sfxSource: {fileID: 1091769121}
+  background: {fileID: 8300000, guid: b10e77980d3951046a8fd20a3f38efb5, type: 3}
+  footsteps: {fileID: 8300000, guid: a818a52232898d349a1edf413f052f0f, type: 3}
+  wind: {fileID: 8300000, guid: 02ef70ac1475d224389a392f735d83f8, type: 3}
+  ambience: {fileID: 8300000, guid: 8b240f3c448702b4d9aef0475a9082b9, type: 3}
+--- !u!4 &177619545
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 177619543}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -30.40065, y: -14.87685, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 670945853}
+  - {fileID: 1091769122}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &294199378
 GameObject:
   m_ObjectHideFlags: 0
@@ -1251,13 +1321,21 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 388504660}
   serializedVersion: 2
+<<<<<<< Updated upstream:vesselhunt/Assets/_Recovery/0 (11).unity
   m_LocalRotation: {x: 0, y: 0, z: 0.38268343, w: 0.92387956}
+=======
+  m_LocalRotation: {x: 0.014139743, y: -0.006736597, z: 0.430057, w: 0.9026659}
+>>>>>>> Stashed changes:vesselhunt/Assets/Scenes/level1-bar.unity
   m_LocalPosition: {x: -16, y: -10, z: 0}
   m_LocalScale: {x: 7, y: 7, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< Updated upstream:vesselhunt/Assets/_Recovery/0 (11).unity
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 45}
+=======
+  m_LocalEulerAnglesHint: {x: 1.795, y: 0, z: 50.949}
+>>>>>>> Stashed changes:vesselhunt/Assets/Scenes/level1-bar.unity
 --- !u!114 &388504665
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2009,6 +2087,135 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &670945851
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 670945853}
+  - component: {fileID: 670945852}
+  m_Layer: 0
+  m_Name: Music
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &670945852
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 670945851}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &670945853
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 670945851}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 177619545}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &724968673
 GameObject:
   m_ObjectHideFlags: 0
@@ -2095,13 +2302,22 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 724968673}
   serializedVersion: 2
+<<<<<<< Updated upstream:vesselhunt/Assets/_Recovery/0 (11).unity
   m_LocalRotation: {x: 0, y: 0, z: 0.42261827, w: 0.9063079}
   m_LocalPosition: {x: 30, y: -6, z: 0}
+=======
+  m_LocalRotation: {x: -0, y: -0, z: 0.7130166, w: 0.70114714}
+  m_LocalPosition: {x: 28.9, y: 14.9, z: 0}
+>>>>>>> Stashed changes:vesselhunt/Assets/Scenes/level1-bar.unity
   m_LocalScale: {x: 5.6, y: 5.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< Updated upstream:vesselhunt/Assets/_Recovery/0 (11).unity
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 50}
+=======
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90.962}
+>>>>>>> Stashed changes:vesselhunt/Assets/Scenes/level1-bar.unity
 --- !u!50 &724968676
 Rigidbody2D:
   serializedVersion: 5
@@ -2715,13 +2931,22 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 877028271}
   serializedVersion: 2
+<<<<<<< Updated upstream:vesselhunt/Assets/_Recovery/0 (11).unity
   m_LocalRotation: {x: 0, y: 0, z: 0.76604444, w: 0.64278764}
   m_LocalPosition: {x: 30, y: -1, z: 0}
+=======
+  m_LocalRotation: {x: -0.015961489, y: 0.016506303, z: 0.6949603, w: 0.71868145}
+  m_LocalPosition: {x: 30.599998, y: 0.1, z: 0.000003231723}
+>>>>>>> Stashed changes:vesselhunt/Assets/Scenes/level1-bar.unity
   m_LocalScale: {x: 5.4, y: 5.4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< Updated upstream:vesselhunt/Assets/_Recovery/0 (11).unity
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 100}
+=======
+  m_LocalEulerAnglesHint: {x: -2.63, y: 0.088, z: 88.075}
+>>>>>>> Stashed changes:vesselhunt/Assets/Scenes/level1-bar.unity
 --- !u!61 &877028274
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3013,7 +3238,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream:vesselhunt/Assets/_Recovery/0 (11).unity
 --- !u!1 &1140432726
+=======
+--- !u!1 &1091769120
+>>>>>>> Stashed changes:vesselhunt/Assets/Scenes/level1-bar.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3021,15 +3250,23 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< Updated upstream:vesselhunt/Assets/_Recovery/0 (11).unity
   - component: {fileID: 1140432727}
   - component: {fileID: 1140432728}
   m_Layer: 0
   m_Name: Music
+=======
+  - component: {fileID: 1091769122}
+  - component: {fileID: 1091769121}
+  m_Layer: 0
+  m_Name: SFX
+>>>>>>> Stashed changes:vesselhunt/Assets/Scenes/level1-bar.unity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< Updated upstream:vesselhunt/Assets/_Recovery/0 (11).unity
 --- !u!4 &1140432727
 Transform:
   m_ObjectHideFlags: 0
@@ -3046,12 +3283,19 @@ Transform:
   m_Father: {fileID: 990090407}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1140432728
+=======
+--- !u!82 &1091769121
+>>>>>>> Stashed changes:vesselhunt/Assets/Scenes/level1-bar.unity
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream:vesselhunt/Assets/_Recovery/0 (11).unity
   m_GameObject: {fileID: 1140432726}
+=======
+  m_GameObject: {fileID: 1091769120}
+>>>>>>> Stashed changes:vesselhunt/Assets/Scenes/level1-bar.unity
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
@@ -3142,6 +3386,24 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+<<<<<<< Updated upstream:vesselhunt/Assets/_Recovery/0 (11).unity
+=======
+--- !u!4 &1091769122
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1091769120}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 177619545}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> Stashed changes:vesselhunt/Assets/Scenes/level1-bar.unity
 --- !u!1 &1150317580
 GameObject:
   m_ObjectHideFlags: 0
@@ -3880,6 +4142,7 @@ GameObject:
   - component: {fileID: 1385312686}
   - component: {fileID: 1385312685}
   - component: {fileID: 1385312684}
+  - component: {fileID: 1385312688}
   m_Layer: 0
   m_Name: shadercar
   m_TagString: Untagged
@@ -4034,6 +4297,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!122 &1385312688
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1385312683}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4278190335
+  m_Size: 30
 --- !u!1 &1440568489
 GameObject:
   m_ObjectHideFlags: 0
@@ -4110,7 +4385,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1440568489}
-  m_BodyType: 0
+  m_BodyType: 2
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -4196,13 +4471,22 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1440568489}
   serializedVersion: 2
+<<<<<<< Updated upstream:vesselhunt/Assets/_Recovery/0 (11).unity
   m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
   m_LocalPosition: {x: -52.7, y: -0.1, z: 0}
+=======
+  m_LocalRotation: {x: 0.0016134235, y: -0.0017728508, z: 0.73957634, w: -0.6730684}
+  m_LocalPosition: {x: -52.7, y: -0.1, z: 5.014434e-10}
+>>>>>>> Stashed changes:vesselhunt/Assets/Scenes/level1-bar.unity
   m_LocalScale: {x: 7, y: 7, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< Updated upstream:vesselhunt/Assets/_Recovery/0 (11).unity
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
+=======
+  m_LocalEulerAnglesHint: {x: 0.026, y: 0.273, z: 264.609}
+>>>>>>> Stashed changes:vesselhunt/Assets/Scenes/level1-bar.unity
 --- !u!114 &1440568494
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5507,7 +5791,11 @@ SceneRoots:
   - {fileID: 1351936003}
   - {fileID: 647236259}
   - {fileID: 804446247}
+<<<<<<< Updated upstream:vesselhunt/Assets/_Recovery/0 (11).unity
   - {fileID: 990090407}
   - {fileID: 1242940050}
   - {fileID: 1250629260}
   - {fileID: 792120562}
+=======
+  - {fileID: 177619545}
+>>>>>>> Stashed changes:vesselhunt/Assets/Scenes/level1-bar.unity
